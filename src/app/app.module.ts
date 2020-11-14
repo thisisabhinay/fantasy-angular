@@ -8,6 +8,7 @@ import { DashboardComponent } from './page/dashboard/dashboard.component';
 import { SportsComponent } from './navigation/sports/sports.component';
 import { SportComponent } from './tile/sport/sport.component';
 import { PageComponent } from './navigation/page/page.component';
+import { LayoutLeaguesComponent } from './layout-leagues/layout-leagues.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PageComponent } from './navigation/page/page.component';
     DashboardComponent,
     SportsComponent,
     SportComponent,
-    PageComponent
+    PageComponent,
+    LayoutLeaguesComponent
   ],
   imports: [
     BrowserModule,
