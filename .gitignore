@@ -1,14 +1,14 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/app/dist
-/app/tmp
-/app/out-tsc
+/dist
+/tmp
+/out-tsc
 # Only exists if Bazel was run
-/app/bazel-out
+/bazel-out
 
 # dependencies
-/app/node_modules
+/node_modules
 
 # profiling files
 chrome-profiler-events*.json
@@ -44,3 +44,5 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+.editorconfig
+.browserslistrc
