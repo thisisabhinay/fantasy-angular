@@ -7,6 +7,7 @@ import { HeaderComponent } from './navigation/header/header.component';
 import { DashboardComponent } from './page/dashboard/dashboard.component';
 import { SportsComponent } from './navigation/sports/sports.component';
 import { SportComponent } from './tile/sport/sport.component';
+import { PageComponent } from './navigation/page/page.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SportComponent } from './tile/sport/sport.component';
     HeaderComponent,
     DashboardComponent,
     SportsComponent,
-    SportComponent
+    SportComponent,
+    PageComponent
   ],
   imports: [
     BrowserModule,
