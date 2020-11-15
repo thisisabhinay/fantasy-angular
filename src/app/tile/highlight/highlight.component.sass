@@ -1,0 +1,29 @@
+.highlight
+    position: relative
+    margin: 0 0 32px 0
+
+    .highlight__content
+        margin: 0 0 4px 0
+        font-size: 0.9em
+
+    .highlight__timestamp
+        color: #999999
+        text-align: right
+        font-size: 0.8em
+
+    &.last-child
+        margin: 0
+
+    &:hover
+        cursor: pointer
+
+        &::after
+            content: ''
+            position: absolute
+            top: 0
+            left: -16px
+            bottom: 22px
+            width: 4px
+            border-radius: 1px
+            background-color: #BBB
+            z-index: 10
